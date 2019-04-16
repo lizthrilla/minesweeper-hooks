@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+
+.cell {
+  height: 1em;
+  width: 1em;
+  background-color: azure;
+}
