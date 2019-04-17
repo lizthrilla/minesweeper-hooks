@@ -37,3 +37,7 @@
   width: 1em;
   background-color: azure;
 }
+
+.cellText {
+  font-size: 5px;
+}

@@ -9,7 +9,9 @@ const Cell = ({value, handleCheck}) => {
     //     '*': 'bomb'
     // }
     return (
-        <td className='cell' onClick={handleCheck} value={value} />
+        <td className='cell' onClick={handleCheck}>
+            <p className='cellText'>{value}</p>
+        </td>
     )
 }
 
